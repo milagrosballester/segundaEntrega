@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Savate", sans-serif;
+  background-color: #f4f1ec;
+  color: rgb(67, 100, 66);
+  line-height: 1.6;
+}
+
+header {
+  background-color: rgb(69, 94, 68);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+div ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  background-color:  rgb(92, 133, 92) ;
+}
+
+div a {
+  color: rgb(234, 244, 234);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+div a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer {
+  background-color: rgb(60, 107, 60);
+  color: rgb(235, 238, 233);
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+}
+body {
+  background-color: rgb(43, 106, 60);
+  background-size: cover;             
+  background-position: center;        
+  background-repeat: no-repeat;       
+  font-family: "Savate", sans-serif;
+  color: rgb(236, 230, 230); 
+}
+#fondoMate{
+  background-color: rgb(47, 113, 47);
+  color: rgb(48, 62, 30)
+}
+.agrandarTitulo{
+  font-size: 40px;
+}
+.parrafoImportante{
+  font-size: 20px;
+}
+img{
+  padding: auto;
+  width: 80%;
+  border: 20px;
+ display: block;
+ margin: 0 auto;
+}
+article{
+  width: 80%;
+  margin: 0 auto;
+  text-align:center;
+  background-color:rgb(69, 94, 68);
+  color: #e9e4db;
+  font-family: "Savate", sans-serif;
+}
+.textoContenedor{
+ list-style-type: disc;
+ margin-bottom: 14px;
+
+}
+.titulos{
+   width: 80%;
+  margin: 0 auto;
+  text-align:center;
+  background-color: rgb(34, 66, 34);
+}
+.lineas{
+  display: flex;
+  align-items: center; 
+  gap: 20px; 
+  background-color: rgb(74, 139, 74);
+}
+#img1{
+  width: 20%;
+  border-radius: 8px;
+ 
+}
+#img2{
+  width: 30%;
+  border-radius: 8px;
+}
+#img3{
+  width: 18%;
+  border-radius: 8px;
+}
+#img4{
+  width: 18%;
+  border-radius: 8px;
+}
+#img5{
+  width: 25%;
+  border-radius: 8px;
+}
+#img6{
+  width: 28%;
+  border-radius: 8px;
+}
+#img7{
+  width: 20%;
+  border-radius: 8px;
+}
+#img8{
+  width: 25%;
+  border-radius: 8px;
+}
+.imagenes{
+   width: 25%;
+  border-radius: 8px;
+}
+.curiosidades{
+   width: 80%;
+  margin: 0 auto;
+  text-align:center;
+  background-color: rgb(38, 84, 38);
+}
