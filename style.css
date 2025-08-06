@@ -101,69 +101,73 @@ article{
   gap: 20px; 
   background-color: rgb(74, 139, 74);
 }
-#img1{
-  width: 20%;
-  border-radius: 8px;
- 
-}
-#img2{
-  width: 30%;
-  border-radius: 8px;
-}
-#img3{
-  width: 18%;
-  border-radius: 8px;
-}
-#img4{
-  width: 18%;
-  border-radius: 8px;
-}
-#img5{
-  width: 25%;
-  border-radius: 8px;
-}
-#img6{
-  width: 28%;
-  border-radius: 8px;
-}
-#img7{
-  width: 20%;
-  border-radius: 8px;
-}
-#img8{
-  width: 25%;
-  border-radius: 8px;
-}
-.imagenes{
-   width: 25%;
-  border-radius: 8px;
-}
 .curiosidades{
    width: 80%;
   margin: 0 auto;
   text-align:center;
   background-color: rgb(38, 84, 38);
 }
+.btn{
+  width: 100%;
+  background-color: rgb(64, 93, 64);
+  border: rgb(248, 253, 248);
+}
+.btn:hover{
+  background-color:rgb(64, 93, 64) !important;
+  color: white;
+}
+.btn:active{
+  background-color:rgb(64, 93, 64) !important;
+  color: white ;
+}
+.btn:focus{
+  background-color:rgb(64, 93, 64) !important ;
+  color: white;
+}
+.btn-warning{
+  color: white;
+}
+.card-body{
+  width: 100%; 
+}
+ .card {
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+.card-img-top {
+  height: 20rem;
+  object-fit: cover;
+}
+
 @media (max-width: 767.98px) {
   /* estilos para móviles */
+  .imagen-carousel {
   min-height: 20rem;
-  min-width: 20 rem;
-  max-width: 20 rem;
-  max-height: 20 rem;
+  min-width: 20rem;
+  max-width: 20rem;
+  max-height: 20rem;
+}
+.texto-slide{
+  min-width: 18rem;
+  max-width: 20rem;
+}
+
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   /* tablets */
+  .imagen-carousel{
    min-height: 40rem;
-  min-width: 40 rem;
-  max-width: 40 rem;
-  max-height: 40 rem;
+  min-width: 40rem;
+  max-width: 40rem;
+  max-height: 40rem;}
 }
-
 @media (min-width: 992px) {
   /* desktops */
-   min-height; 60rem;
-  min-width: 60 rem;
-  max-width: 60 rem;
-  max-height: 30 rem;
+  .imagen-carousel{
+   min-height: 50rem;
+  min-width: 80rem;
+  max-width: 80rem;
+  max-height: 50rem;}
 }
