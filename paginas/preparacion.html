@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Preparacion</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link rel="stylesheet" href="../style.css">
      <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,117 +12,190 @@
 </head>
 <body>
  <header>
-    <h1>El Mundo del Mate</h1>
-    <div>
-      <ul>
-        <li><a href="../index.html">Inicio</a></li>
-        <li><a href="./historia.html">Historia</a></li>
-        <li><a href="./historia.html">Preparación</a></li>
-        <li><a href="./tipos.html">Tipos</a></li>
-        <li><a href="./curiosidades.html">Curiosidades</a></li>
-     </ul>
-   </div>
+   <nav class="navbar navbar-expand-lg bg-body-tertiary">
+         <div class="container-fluid">
+           <a class="navbar-brand" href="#">El mundo del mate</a>
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+             <div class="navbar-nav">
+               <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+               <a class="nav-link" href="./historia.html">Hisatoria</a>
+               <a class="nav-link" href="./preparacion.html">Preparacion</a>
+               <a class="nav-link" href="./preparacion.html">Tipos</a>
+               <a class="nav-link" href="./curiosidades.html">Curiosidades</a>
+             </div>
+            </div>
+         </div>
+       </nav>
  </header>
  <main>
     <h2 class="agrandarTitulo">Cómo Preparar un Buen Mate</h2>
     <p>Preparar un buen mate es mucho más que seguir unos pasos: es un ritual que forma parte de nuestra cultura y que se disfruta con cada cebada. En esta guía te mostramos, de forma sencilla y detallada, cómo armar un mate sabroso para compartir o disfrutar solo, sin complicaciones y respetando las costumbres que lo hacen único.</p>
  </main> 
- <section class="titulos">
-    <h3>1-Colocar la yerba en el mate</h3>
-    <p>Empezá llenando el mate con yerba mate seca</p>
-    <div class="lineas">
-      <img src="../img/yerbaenmate.png" alt="poninendo yerba en mate" id="img1">
-      <ul>
-       <li>Lo ideal es que llegue hasta las ¾ partes del mate. Esto permite que haya suficiente yerba para varias cebadas, pero también deja espacio para el agua.</li>
-       <li>Si te gusta un sabor más suave o estás empezando, podés llenar solo hasta la mitad.</li>
-       <li>Este paso determina la duración del mate: más yerba, más rondas de cebado.</li>
-     </ul>
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Carrusel con 8 imágenes</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+
+<div class="container my-4">
+  <div id="miCarrusel" class="carousel slide" data-bs-ride="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#miCarrusel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#miCarrusel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#miCarrusel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#miCarrusel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#miCarrusel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      <button type="button" data-bs-target="#miCarrusel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+      <button type="button" data-bs-target="#miCarrusel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+      <button type="button" data-bs-target="#miCarrusel" data-bs-slide-to="7" aria-label="Slide 8"></button>
     </div>
- </section>
- <section class="titulos">
-     <h3>2-Tapar la boca del mate y sacudir:</h3>
-     <p>Antes de poner agua, cubrí la boca del mate con la palma de tu mano, invertí el mate boca abajo y sacudilo suavemente unas cuantas veces.</p>
-     <div  class="lineas">
-       <img src="../img/sacandopolvillo.avif" alt="sacando el polvillo" id="img2">
-       <ul>
-         <li>Esto hace que el polvo más fino suba a la parte superior, mientras que las hojas más grandes quedan abajo.</li>
-         <li>Así se evita que el polvo tape la bombilla luego y se logra un mate más parejo.</li>
-         <li>También sirve para airear la yerba y que no quede apelmazada.</li>
-       </ul>
-     </div>
-   </section>
-   <section class="titulos">
-     <h3>3-Inclinar la yerba para formar el "montículo:</h3>
-     <p>Volvé a colocar el mate en posición normal, pero inclinalo despacio en un ángulo de unos 45°, de forma que la yerba se acumule hacia un costado.</p>
-     <div  class="lineas">
-       <img src="../img/inclinarmate.png" alt="inclinando el mate" id="img3">
-       <ul>
-         <li>Así se crea una especie de pendiente o montañita de yerba, dejando un hueco libre en el lado opuesto.</li>
-         <li>Este hueco servirá como “zona de cebado”, es decir, el lugar donde siempre vas a verter el agua.</li>
-         <li>Al hacerlo así, la yerba no se moja toda de golpe, extendiendo el sabor durante más cebadas.</li>
-       </ul>
-     </div>
-   </section>
-   <section class="titulos">
-     <h3>4-Verter un poco de agua tibia:</h3>
-     <p>Antes de usar agua caliente, echá un chorrito de agua tibia (alrededor de 40°C) en el hueco que formaste.</p>
-     <div  class="lineas">
-       <img src="../img/echandoleagua.png" alt="vertiendo agua tibia en el mate" id="img4">
-        <ul>
-          <li>Dejá que la yerba absorba esa agua por unos 30 segundos.</li>
-          <li>Esto se llama “despertar la yerba” y hace que el polvo y las hojas se hidraten gradualmente, evitando que se quemen cuando uses el agua caliente.</li>
-          <li>Saltarte este paso puede hacer que el mate se vuelva muy amargo desde la primera cebada.</li>
-       </ul>
-     </div>
-   </section>
-   <section class="titulos">
-     <h3>5-Colocar la bombilla:</h3>
-     <p>Cuando la yerba ya absorbió el agua tibia, introducí la bombilla con cuidado en el hueco húmedo, apuntando hacia el fondo.</p>
-     <div  class="lineas">
-       <img src="../img/poniendobombilla.webp" alt="poniendole la bombilla al mate" id="img5">
-       <ul>
-         <li>Es importante no moverla demasiado, para no desarmar la estructura del montículo de yerba.</li>
-         <li>Si la bombilla se mueve mucho después de puesta, puede romper el “canal” que se forma, haciendo que el mate se tape o pierda sabor rápido.</li>
-       </ul>
-     </div>
-   </section>
-   <section class="titulos">
-     <h3>6-Cebar con agua caliente:</h3>
-     <p>Ahora sí, comenzá a cebar el mate con agua caliente.</p>
-     <div  class="lineas">
-       <img src="../img/sirveagua.jpg" alt="cebando con agua caliente" id="img6">
-       <ul>
-         <li>La temperatura ideal es entre 70°C y 80°C. Si está hirviendo, va a quemar la yerba y volverla demasiado amarga.</li>
-         <li>Verté el agua despacio, siempre en el mismo lugar donde pusiste el agua tibia y donde está la bombilla.</li>
-         <li>No mojes toda la yerba de golpe. De esa manera, las zonas secas se irán hidratando de a poco, prolongando el sabor del mate.</li>
-       </ul>
-     </div>
-   </section>
-   <section class="titulos" >
-     <h3>7-Tomar y repetir:</h3>
-     <p>Bebé el mate entero hasta que se escuche un “gorgoteo” que indica que ya no queda más agua.</p>
-     <div  class="lineas">
-       <img src="../img/tomandomate.jpg" alt="persona tomando mate" id="img7">
-       <ul>
-         <li>Después volvés a cebar en el mismo lugar.</li>
-         <li>El mate se va “lavando” con cada cebada: al principio será más intenso y con el tiempo perderá fuerza.</li>
-         <li>Cuando la yerba ya no tenga sabor, es momento de cambiarla.</li>
-       </ul>
-     </div>
-   </section>
-   <section class="titulos">
-     <h3>8-Disfrutar y compartir:</h3>
-     <p>El mate no es solo una bebida: es un acto social.</p>
-     <div  class="lineas">
-       <img src="../img/compartiendomate.jpg" alt="personas compartiendo mate" id="img8">
-       <ul>
-         <li>Compartilo con amigos o familia pasando el mate siempre en el mismo orden, y quien ceba se encarga de rellenarlo.</li>
-         <li>Si estás solo, igual es un momento para disfrutar tranquilo y acompañar tus tareas o tu descanso.</li>
-       </ul>
-     </div>
-   </section>
+    <div class="carousel-inner">
+      <div class="container mt-5">
+  <div id="carruselPersonalizado" class="carousel slide" data-bs-ride="false">
+    <div class="carousel-inner">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <img src="../img/yerbaenmate.png" class="d-block w-100" alt="yerba en mate" />
+        <div class="texto-slide">
+          <h5>1-Colocar la yerba en el mate:</h5>
+          <p>
+            Empezá llenando el mate con yerba mate seca.
+            <ul>
+             <li>Lo ideal es que llegue hasta las ¾ partes del mate. Esto permite que haya suficiente yerba para varias cebadas, pero también deja espacio para el agua.</li>
+             <li>Si te gusta un sabor más suave o estás empezando, podés llenar solo hasta la mitad.</li>
+             <li>Este paso determina la duración del mate: más yerba, más rondas de cebado.</li>
+           </ul>
+          </p>
+        </div>
+      </div>
+        <!-- Slide 2 -->
+      <div class="carousel-item">
+        <img src="../img/sacandopolvillo.avif" class="d-block w-100" alt="sacando el polvillo" />
+        <div class="texto-slide">
+          <h5>2-Tapar la boca del mate y sacudir:</h5>
+          <p>
+             Antes de poner agua, cubrí la boca del mate con la palma de tu mano, invertí el mate boca abajo y sacudilo suavemente unas cuantas veces.
+            <ul>
+              <li>Esto hace que el polvo más fino suba a la parte superior, mientras que las hojas más grandes quedan abajo.</li>
+              <li>Así se evita que el polvo tape la bombilla luego y se logra un mate más parejo.</li>
+              <li>También sirve para airear la yerba y que no quede apelmazada.</li>
+           </ul>
+          </p>
+        </div>
+      </div>
+        <!-- Slide 3 -->
+      <div class="carousel-item">
+        <img src="../img/inclinarmate.png" class="d-block w-20" alt="inclinar mate" />
+        <div class="texto-slide">
+          <h5>3-Inclinar la yerba para formar el "montículo:</h5>
+          <p>
+            Volvé a colocar el mate en posición normal, pero inclinalo despacio en un ángulo de unos 45°, de forma que la yerba se acumule hacia un costado.
+             <ul>
+                <li>Así se crea una especie de pendiente o montañita de yerba, dejando un hueco libre en el lado opuesto.</li>
+                <li>Este hueco servirá como “zona de cebado”, es decir, el lugar donde siempre vas a verter el agua.</li>
+                <li>Al hacerlo así, la yerba no se moja toda de golpe, extendiendo el sabor durante más cebadas.</li>
+             </ul>
+          </p>
+        </div>
+      </div>
+       <!-- Slide 4 -->
+      <div class="carousel-item">
+        <img src="../img/sirveagua.jpg" class="d-block w-100" alt="sirviendo agua tibia" />
+        <div class="texto-slide">
+          <h5>4-Verter un poco de agua tibia:</h5>
+          <p>
+            Antes de usar agua caliente, echá un chorrito de agua tibia (alrededor de 40°C) en el hueco que formaste.
+            <ul>
+              <li>Dejá que la yerba absorba esa agua por unos 30 segundos.</li>
+              <li>Esto se llama “despertar la yerba” y hace que el polvo y las hojas se hidraten gradualmente, evitando que se quemen cuando uses el agua caliente.</li>
+              <li>Saltarte este paso puede hacer que el mate se vuelva muy amargo desde la primera cebada.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+          <!-- Slide 5 -->
+      <div class="carousel-item">
+        <img src="../img/poniendobombilla.webp" class="d-block w-100" alt="poniendo bombilla" />
+        <div class="texto-slide">
+          <h5>5-Colocar la bombilla:</h5>
+          <p>Cuando la yerba ya absorbió el agua tibia, introducí la bombilla con cuidado en el hueco húmedo, apuntando hacia el fondo.
+            <ul>
+              <li>Es importante no moverla demasiado, para no desarmar la estructura del montículo de yerba.</li>
+             <li>Si la bombilla se mueve mucho después de puesta, puede romper el “canal” que se forma, haciendo que el mate se tape o pierda sabor rápido.</li>
+           </ul>
+          </p>
+        </div>
+      </div>
+       <!-- Slide 6 -->
+      <div class="carousel-item">
+        <img src="../img/echandoleagua.png" class="d-block w-100" alt="echandole agua" />
+        <div class="texto-slide">
+          <h5>6-Cebar con agua caliente:</h5>
+          <p>
+            <ul>
+              <li>La temperatura es ideal entre 70°c y 80°c. Si esta hirviendo , va a quemar la yerba y volveria demasiada amarga</li>
+              <li>verté el agua despacio, siempre en el mismo lugar donde pusiste el agua tibia y donde está la bombilla</li>
+              <li>No mojes toda la yerba de golpe.De esa manera, las zonas secas se irán hidratando de a poco , prolongando el sabor del mate</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+       <!-- Slide 7 -->
+      <div class="carousel-item">
+        <img src="../img/tomandomate.jpg" class="d-block w-100" alt="tomando mate" />
+        <div class="texto-slide">
+          <h5>7-Tomar y repetir:</h5>
+          <p>Bebé el mate entero hasta que se escuche un “gorgoteo” que indica que ya no queda más agua.
+             <ul>
+                <li>Después volvés a cebar en el mismo lugar.</li>
+                <li>El mate se va “lavando” con cada cebada: al principio será más intenso y con el tiempo perderá fuerza.</li>
+                <li>Cuando la yerba ya no tenga sabor, es momento de cambiarla.</li>
+             </ul>
+            </p>
+        </div>
+      </div>
+       <!-- Slide 8 -->
+      <div class="carousel-item">
+        <img src="../img/compartiendomate.jpg" class="d-block w-100" alt="compartiendo mate" />
+        <div class="texto-slide">
+          <h5>8-Disfrutar y copartir:</h5>
+          <p> El mate no es solo una bebida: es un acto social.
+             <ul>
+               <li>Compartilo con amigos o familia pasando el mate siempre en el mismo orden, y quien ceba se encarga de rellenarlo.</li>
+               <li>Si estás solo, igual es un momento para disfrutar tranquilo y acompañar tus tareas o tu descanso.</li>
+             </ul>
+            </p>
+        </div>
+      </div>
+    </div> 
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#miCarrusel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#miCarrusel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
   <footer>
     <p>2025 El Mundo del Mate</p>
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
 </html>

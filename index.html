@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>El Mundo del Mate</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
   <link rel="stylesheet" href="./style.css">
  <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,7 +12,24 @@
 </head>
 <body id="fondoMate">
   <header>
-    <h1>El Mundo del Mate</h1>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">El mundo del mate</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            <a class="nav-link" href="./paginas/historia.html">Hisatoria</a>
+            <a class="nav-link" href="./paginas/preparacion.html">Preparacion</a>
+            <a class="nav-link" href="./paginas/tipos.html">Tipos</a>
+            <a class="nav-link" href="./paginas/curiosidades.html">Curiosidades</a>
+         </div>
+       </div>
+     </div>
+   </nav>
+    <!--<h1>El Mundo del Mate</h1>
     <div>
       <ul>
         <li><a href="./index.html">Inicio</a></li>
@@ -20,7 +38,7 @@
         <li><a href="./paginas/tipos.html">Tipos</a></li>
         <li><a href="./paginas/curiosidades.html">Curiosidades</a></li>
      </ul>
-   </div>
+   </div>-->
  </header>
  <main>
     <h2 class="agrandarTitulo">Bienvenido</h2>
@@ -74,5 +92,6 @@
  <footer>
     <p>2025 El Mundo del Mate</p>
  </footer>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
 </html>
