@@ -65,9 +65,11 @@ body {
 }
 .agrandarTitulo{
   font-size: 40px;
+  color: white;
 }
 .parrafoImportante{
   font-size: 20px;
+  color: white;
 }
 img{
   padding: auto;
@@ -93,7 +95,7 @@ article{
    width: 80%;
   margin: 0 auto;
   text-align:center;
-  background-color: rgb(34, 66, 34);
+
 }
 .lineas{
   display: flex;
@@ -140,6 +142,7 @@ article{
   object-fit: cover;
 }
 
+
 @media (max-width: 767.98px) {
   /* estilos para móviles */
   .imagen-carousel {
@@ -149,10 +152,8 @@ article{
   max-height: 20rem;
 }
 .texto-slide{
-  min-width: 18rem;
-  max-width: 20rem;
-}
-
+    max-width: 20rem;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -162,6 +163,9 @@ article{
   min-width: 40rem;
   max-width: 40rem;
   max-height: 40rem;}
+  .texto-slide{
+    max-width: 40rem;
+  }
 }
 @media (min-width: 992px) {
   /* desktops */
@@ -170,4 +174,7 @@ article{
   min-width: 80rem;
   max-width: 80rem;
   max-height: 50rem;}
+  .texto-slide{
+    max-width: 80rem;
+  }
 }
