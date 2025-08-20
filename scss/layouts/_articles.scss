@@ -1,0 +1,6 @@
+/* ARTÍCULOS */
+article {
+ @extend %anchoMargenAlign;
+  background-color: $color-bg-article;
+  color: #e9e4db;
+}

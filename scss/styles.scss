@@ -1,0 +1,51 @@
+@import "./utilities/variables";
+@import "./utilities/extends";
+@import "./utilities/mixins";
+@import "./layouts/articles";
+@import "./layouts/buttons";
+@import "./layouts/cards";
+@import "./layouts/header";
+@import "./layouts/footer";
+@import "./layouts/main";
+@import "./layouts/nav";
+@import "./layouts/img";
+@import "./layouts/body";
+@import "./layouts/seccion";
+@import "./layouts/mq";
+
+
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* LISTAS */
+.textoContenedor {
+  list-style-type: disc;
+  margin-bottom: 14px;
+}
+
+/* TITULOS CENTRADOS */
+.titulos {
+@extend %anchoMargenAlign ;
+}
+
+/* LINEAS FLEX */
+.lineas {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: $color-bg-lineas;
+}
+
+/* CURIOSIDADES */
+.curiosidades {
+  @extend %anchoMargenAlign ; 
+  background-color: $color-bg-curiosidades;
+}
+
+
+
+

@@ -1,0 +1,6 @@
+@mixin mqImg($min-height, $min-width, $max-width, $max-height,) {
+  min-height: $min-height;
+    min-width: $min-width;
+    max-width: $max-width;
+    max-height: $max-height;
+}

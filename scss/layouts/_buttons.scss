@@ -1,0 +1,19 @@
+/* BOTONES */
+.btn {
+  width: 100%;
+  background-color: $color-bg-btn;
+  border: 1px solid $color-border-btn;
+  color: $color-text-white;
+
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: $color-bg-btn;
+    color: $color-text-white;
+  }
+
+  &.btn-warning {
+    color: $color-text-white;
+  }
+}
+

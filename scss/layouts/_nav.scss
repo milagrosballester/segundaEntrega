@@ -1,0 +1,21 @@
+/* NAVEGACIÓN */
+div {
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: $color-bg-nav;
+  }
+
+  a {
+    color: $color-text-light;
+    text-decoration: none;
+    font-weight: bold;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
