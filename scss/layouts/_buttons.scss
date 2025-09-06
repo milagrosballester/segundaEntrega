@@ -16,4 +16,8 @@
     color: $color-text-white;
   }
 }
-
+.btn-primary:active,
+.btn-primary:focus {
+  background-color: #1d6e64 !important; /* color al presionar */
+  border-color: #1d6e64 !important;
+}
